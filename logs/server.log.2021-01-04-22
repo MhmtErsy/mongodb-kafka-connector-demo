@@ -1,0 +1,2 @@
+[2021-01-04 22:35:41,128] WARN Exception causing close of session 0x1003189fb67000e: An existing connection was forcibly closed by the remote host (org.apache.zookeeper.server.NIOServerCnxn)
+[2021-01-04 22:35:57,420] INFO Expiring session 0x1003189fb67000e, timeout of 18000ms exceeded (org.apache.zookeeper.server.ZooKeeperServer)
