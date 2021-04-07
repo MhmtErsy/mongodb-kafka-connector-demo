@@ -25,7 +25,7 @@ Real Time MongoDB Change Data Capture via Kafka Connect - Demo
 ### Run Kafka Connect
 `"bin\windows\connect-standalone.bat" config\connect-standalone.properties plugins\mongodb-kafka-connect-mongodb-1.5.0\etc\MongoSourceConnector.properties`
 
-### When you list topic, you will see a topic that named "db.collectionname"
+### When you list topic, you will see a topic that named "db.collectionname", so you must see test.iris topic
 `"bin/windows/kafka-topics.bat" --list --zookeeper localhost:2181`
 
 ### When you run a consumer, you can see the change events on records. If your MongoDB collection transactions are inactive, you can insert or delete a few data to observe change events on Kafka topic
