@@ -30,3 +30,6 @@ Real Time MongoDB Change Data Capture via Kafka Connect - Demo
 
 ### When you run a consumer, you can see the change events on records. If your MongoDB collection transactions are inactive, you can insert or delete a few data to observe change events on Kafka topic
 `"bin\windows\kafka-console-consumer.bat" --topic test.iris --from-beginning --bootstrap-server localhost:9092`
+
+## Linux
+#### To be added..
